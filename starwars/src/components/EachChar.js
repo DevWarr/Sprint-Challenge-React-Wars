@@ -34,6 +34,10 @@ const EachChar = (props) => {
             <div className='vehicles half'>
                 <h4 className='subtitle'>Vehicles:</h4>
                 <ul>
+                    {/* If the vehicles array exists,
+                        map it out into our Vehicles component.
+                        Otherwise, display "NO VEHICLES"
+                     */}
                     {vehicleExists ? 
                         props.info.vehicles.map(vehicle => {
                         return <CharVehicle vehicle={vehicle}/>

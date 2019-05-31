@@ -1,5 +1,11 @@
 import React from "react";
 
+
+
+
+/**Class used so we can store the link in the state and update it with our data.
+ * I could not get a function to utilize componentDidMount()
+ */
 class CharVehicle extends React.Component {
   constructor(props) {
     super();
