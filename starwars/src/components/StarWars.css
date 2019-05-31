@@ -1,0 +1,51 @@
+.container {
+    background: rgba(15, 80, 71, 0.8);
+}
+
+.character {
+    text-align: left;
+    padding: 1% 0 1%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.character:nth-of-type(odd) {
+    background: rgba(255, 255, 255, 0.2);
+}
+.character:nth-of-type(even) {
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.characterName, .subtitle {
+    width: 100%;
+    text-align: center;
+}
+
+.half {
+    flex-basis: 50%;
+}
+
+.vehicles li {
+    width: 60%;
+}
+
+.noVehicles {
+    font-style: italic;
+    text-align: center;
+    line-height: 1.4;
+}
+
+
+ul {
+    width: 100%;
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 3px 0;
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
