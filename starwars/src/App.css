@@ -1,8 +1,27 @@
 .App {
   text-align: center;
+  width: 60%;
+  margin: 0 auto 50px;
 }
+
 .Header {
   color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
 }
+
+.pages {
+  width: 50%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+button {
+  padding: 10px 20px;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
 /* write your parent styles in here for your App.js */
